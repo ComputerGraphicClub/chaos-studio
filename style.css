@@ -158,7 +158,8 @@ a {
   font-size: 100px;
   line-height: 1;
   left: calc(var(--main-margin) + (var(--cross-height) / 2));
-  top : calc(var(--row-height)*1 + var(--main-margin) + (var(--cross-height) / 2));
+  top : calc(var(--row-height)*1 + var(--main-margin));
+  padding: 12px;
   font-weight: 700;
   letter-spacing: -0.4vw;
 }
@@ -167,10 +168,9 @@ a {
   position: absolute;
   font-size: 16px;
   line-height: 1.2;
-  padding-left: 1.6vw;
-  padding-top: 1.6vw;
+  padding: 12px;
   font-weight: 500;
-  letter-spacing: -0.05vw;
+  letter-spacing: 0;
 }
 
 #info-contact, #info-adress, #info-authors, #info-description, #info-curriculum {
