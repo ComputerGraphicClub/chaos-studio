@@ -79,7 +79,7 @@ a {
     left: 50%;
     content: ' ';
     height: var(--cross-height);
-    width: 2px;
+    width: 1px;
     background-color: black;
   }
   .cross:before {
