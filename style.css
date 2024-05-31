@@ -66,7 +66,7 @@ a {
   }
 
 .cross#menu:before, .cross#menu:after { 
-    background-color: rgb(0, 200, 255);
+    background-color: rgb(0, 120, 255);
 }
 
 .cross#description:before, .cross#description:after { 
@@ -268,7 +268,7 @@ position: absolute;
 }
 
 #menu-list a:hover {
-  color: rgb(0, 200, 255);
+  color: rgb(0, 120, 255);
 }
 
 
