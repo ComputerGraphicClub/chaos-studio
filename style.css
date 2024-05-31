@@ -66,11 +66,11 @@ a {
   }
 
 .cross#menu:before, .cross#menu:after { 
-    background-color: rgb(0, 200, 0);
+    background-color: rgb(0, 0, 255);
 }
 
 .cross#description:before, .cross#description:after { 
-  background-color: rgb(0, 0, 255);
+  background-color: rgb(0, 200, 0);
   transition: all 800ms ease-in-out;
 }
 
@@ -271,7 +271,7 @@ position: absolute;
 }
 
 #menu-list a:hover {
-  color: rgb(0, 200, 0);
+  color: rgb(0, 0, 255);
 }
 
 
