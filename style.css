@@ -232,7 +232,7 @@ position: absolute;
 }
 
 .project-description {
-  width: calc(var(--column-width) - 10%);
+  width: calc(var(--column-width) - 5%);
   box-sizing: border-box;
   padding-right: 2vw;
 }
