@@ -326,7 +326,7 @@ document.addEventListener('scroll', function (ev) {
   }
   
   // Create a MediaQueryList object
-  var maxWidth = window.matchMedia("(max-width: 600px)")
+  var maxWidth = window.matchMedia("(max-width: 1000px)")
   
   // Call listener function at run time
   smartphoneView(maxWidth);
