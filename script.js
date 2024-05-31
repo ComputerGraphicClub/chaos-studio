@@ -225,7 +225,7 @@ document.addEventListener('scroll', function (ev) {
             
             if (menuIconState === 0) {
                 menuIcon.style.transform = "rotate(calc(" + i + "*90deg + 45deg))"; 
-                menuArea.style.opacity = "1";
+                menuArea.style.opacity = "0";
                 menuList.style.pointerEvents = "auto";
                 rowMenuDisable.style.opacity = "0"
                 menuIconState = 1;
