@@ -213,7 +213,7 @@ document.addEventListener('scroll', function (ev) {
 
     menuList.onclick = function () {
     menuArea.style.opacity = "0"
-    menuArea.style.backgroundColor = "rgba(255, 255, 0)"
+    menuArea.style.backgroundColor = "rgba(255, 255, 0, 0.6)"
     menuList.style.pointerEvents = "none";
     menuIconState = 0;
 };
@@ -235,7 +235,7 @@ document.addEventListener('scroll', function (ev) {
             else {
                 menuIcon.style.transform = "rotate(calc(" + i + "*90deg))"; 
                 menuArea.style.opacity = "0"
-                menuArea.style.backgroundColor = "rgba(255, 255, 0)"
+                menuArea.style.backgroundColor = "rgba(255, 255, 0, 0.6)"
                 menuList.style.pointerEvents = "none";
                 rowMenuDisable.style.opacity = "1"
                 menuIconState = 0;
@@ -311,7 +311,7 @@ document.addEventListener('scroll', function (ev) {
             else {
                 menuIcon.style.transform = "rotate(calc(" + i + "*90deg))"; 
                 menuArea.style.opacity = "0"
-                menuArea.style.backgroundColor = "rgba(255, 255, 0)"
+                menuArea.style.backgroundColor = "rgba(255, 255, 0, 0.6)"
                 menuList.style.pointerEvents = "none";
                 menuIconState = 0;
                 menuIconAngle = 0;
