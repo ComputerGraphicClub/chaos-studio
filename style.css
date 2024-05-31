@@ -238,16 +238,16 @@ position: absolute;
 }
 
 #menu-area {
+  width: calc(50% - 1.5*var(--main-margin));
+  height: calc(100% - 3*var(--main-margin));
   position: absolute;
   pointer-events: none;
   z-index: 1;
   width: 50vw;
-  right: 0;
+  right: calc(var(--main-margin) + var(--cross-height)/2);
   height: 100%;
   color: black;
-  background-color: rgba(255, 255, 255);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 0);
   opacity: 0;
   transition: opacity 800ms ease-in-out;
 }
