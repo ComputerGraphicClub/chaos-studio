@@ -283,7 +283,7 @@ var descIconColor = document.head.appendChild(document.createElement("style"));
 document.addEventListener('scroll', function (ev) {
     
     if (isInViewportY(projectArea[0])) {
-        descIconColor.innerHTML = ".cross#description:before {background: rgb(36, 125, 240);} .cross#description:after {background: rgb(36, 125, 240);}";
+        descIconColor.innerHTML = ".cross#description:before {background: rgb(0, 200, 0);} .cross#description:after {background: rgb(0, 200, 0);}";
     }
 
     else {
