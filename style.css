@@ -387,7 +387,7 @@ vertical-align: super;
 }
 
 #menu-area {
-  width: 100vw;
+  width: calc(100% - 2*var(--cross-height) - var(--main-margin));
 }
 
 #menu-title {
