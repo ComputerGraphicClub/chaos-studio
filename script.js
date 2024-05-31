@@ -199,11 +199,11 @@ var descIconColor = document.head.appendChild(document.createElement("style"));
 document.addEventListener('scroll', function (ev) {
     
     if (isInViewportY(projectArea[0])) {
-        descIconColor.innerHTML = ".cross#description:before {background: rgb(36, 125, 240);} .cross#description:after {background: rgb(36, 125, 240);}";
+        descIconColor.innerHTML = ".cross#description:before {background: rgb(0, 240, 0);} .cross#description:after {background: rgb(36, 125, 240);}";
     }
 
     else {
-        descIconColor.innerHTML = ".cross#description:before {background: #b17f4a;}  .cross#description:after {background: #b17f4a;}";
+        descIconColor.innerHTML = ".cross#description:before {background: rgb(200, 0, 0);}  .cross#description:after {background: #b17f4a;}";
     }
 
 }, true)
