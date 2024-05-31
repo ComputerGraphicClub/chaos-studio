@@ -386,9 +386,7 @@ vertical-align: super;
 }
 
 #menu-title {
-  left: calc(var(--main-margin) + (var(--cross-height) / 2));
-  top : calc(var(--row-height)*0 + var(--main-margin) + (var(--cross-height) / 2));
-  transform: initial;
+
 }
 
 #menu-list {
