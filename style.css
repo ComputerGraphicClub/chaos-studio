@@ -79,7 +79,7 @@ a {
     left: 50%;
     content: ' ';
     height: var(--cross-height);
-    width: 2px;
+    width: 1px;
     background-color: black;
   }
   .cross:before {
@@ -283,14 +283,14 @@ position: absolute;
   }
 
   :root {
-    --main-margin: 20px;
-    --cross-height: 20px;
+    --main-margin: 16px;
+    --cross-height: 16px;
     --row-height: calc((100% - (2 * var(--main-margin) + var(--cross-height))) / 3);
     --column-width: calc((100vw - (2 * var(--main-margin) + var(--cross-height))) / 2);
   }
 
   .cross:before, .cross:after {
-    width: 1.5px;
+    width: 1px;
   }
 
   .project-area img {
@@ -304,11 +304,11 @@ position: absolute;
 }
 
 #info-contact, #info-adress, #info-authors, #info-description, #info-curriculum, #menu-title, #menu-list, .project-number, .project-data, .project-partners, .project-description, .project-img-index {
-  font-size: 3.5vw;
+  font-size: 12px;
   line-height: 1.2;
   padding: 2.5vw;
-  font-weight: 400;
-  letter-spacing: -0.05vw;
+  font-weight: 500;
+  letter-spacing: 0vw;
 }
 
 .project-number {
@@ -359,7 +359,7 @@ left : calc(var(--main-margin) + (var(--cross-height) / 2));
 
 #logo {
   padding-top: 3vw;
-  font-size: 20vw;
+  font-size: 80px;
 }
 
 #info-authors {
