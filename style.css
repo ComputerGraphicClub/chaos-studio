@@ -221,6 +221,7 @@ position: absolute;
 }
 
 .project-partners {
+  width: calc(var(--column-width) - 10vw);
   top : calc(var(--row-height)*2 + var(--main-margin) + (var(--cross-height) / 2));
   left: calc(var(--main-margin) + (var(--cross-height) / 2) + var(--column-width));
   padding-right: 6vw;
@@ -232,7 +233,7 @@ position: absolute;
 }
 
 .project-description {
-  width: calc(var(--column-width) - 5%);
+  width: calc(var(--column-width) - 10vw);
   box-sizing: border-box;
   padding-right: 2vw;
 }
