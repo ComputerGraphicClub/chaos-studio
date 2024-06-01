@@ -166,10 +166,10 @@ a {
 
 #info-contact, #info-adress, #info-authors, #info-description, #info-curriculum, #menu-title, #menu-list, .project-number, .project-data, .project-partners, .project-description, .project-img-index {
   position: absolute;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   padding: 12px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0;
 }
 
