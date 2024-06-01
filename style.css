@@ -169,7 +169,7 @@ a {
   font-size: 14px;
   line-height: 1.2;
   padding: 12px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0;
 }
 
@@ -221,7 +221,7 @@ position: absolute;
 }
 
 .project-partners {
-  width: calc(var(--column-width) - 10vw);
+  width: calc(var(--column-width) - 20vw);
   top : calc(var(--row-height)*2 + var(--main-margin) + (var(--cross-height) / 2));
   left: calc(var(--main-margin) + (var(--cross-height) / 2) + var(--column-width));
   padding-right: 6vw;
@@ -233,7 +233,7 @@ position: absolute;
 }
 
 .project-description {
-  width: calc(var(--column-width) - 10vw);
+  width: calc(var(--column-width) - 20vw);
   box-sizing: border-box;
   padding-right: 2vw;
 }
@@ -304,7 +304,7 @@ position: absolute;
   font-size: 12px;
   line-height: 1.2;
   padding: 2.5vw;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0vw;
 }
 
