@@ -171,6 +171,7 @@ else {
           
     
     if (descIconState === 0) {
+        descIcon.style.transform = "rotate(calc(" + i-1 + "*90deg + 45deg))"; 
         projectDescription[i-1].style.opacity = "1";
         projectPartners[i-1].style.opacity = "1";
         imgList[i-1].style.opacity = "0";
@@ -179,6 +180,7 @@ else {
         descIconState = 1;
     }
     else {
+        descIcon.style.transform = "rotate(calc(" + i-1 + "*90deg))"; 
         projectDescription[i-1].style.opacity = "0";
         projectPartners[i-1].style.opacity = "0";
         imgList[i-1].style.opacity = "1";
@@ -244,7 +246,8 @@ document.addEventListener('scroll', function (ev) {
             }
         
         };
-   
+
+     
     // Modification for desktop views
     } else {
 
