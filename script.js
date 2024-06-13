@@ -223,7 +223,7 @@ document.addEventListener('scroll', function (ev) {
     menuArea.style.opacity = "0"
     menuArea.style.backgroundColor = "rgba(255, 255, 0, 0.8)"
     menuList.style.pointerEvents = "none";
-    rowMenuDisable.style.opacity = "1";
+    rowMenuDisable.style.opacity = "1"
     scrollContainer.style.overflowY = "auto";
     menuIconState = 0;
 };
@@ -245,7 +245,7 @@ document.addEventListener('scroll', function (ev) {
             }
             else {
                 menuIcon.style.transform = "rotate(calc(" + i + "*90deg))"; 
-                c.style.opacity = "0"
+                menuArea.style.opacity = "0"
                 menuArea.style.backgroundColor = "rgba(255, 255, 0, 0.8)"
                 menuList.style.pointerEvents = "none";
                 rowMenuDisable.style.opacity = "1"
