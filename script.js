@@ -123,6 +123,8 @@ const descIcon = document.getElementById("description");
 const descText = document.querySelectorAll('#info-contact, #info-adress, #info-authors, #info-description, #info-curriculum');
 let descIconState = 0;
 
+const scrollContainer = document.getElementById("scroll-container");
+
 function smartphoneView(maxWidth) {
 
     // Modification for smartphone views
@@ -151,6 +153,7 @@ if (descIconState === 0) {
     descText[4].style.opacity = "1";
     descIcon.style.transform = "rotate(calc(" + 0 + "*90deg + 45deg))"; 
     logo.style.opacity = "0";
+    scrollContainer.style.overflowY = "hidden";
     descIconState = 1;
 }
 else {
@@ -161,6 +164,7 @@ else {
     descText[4].style.opacity = "0";
     descIcon.style.transform = "rotate(calc(" + 0 + "*90deg))";  
     logo.style.opacity = "1";
+    scrollContainer.style.overflowY = "auto";
     descIconState = 0;
 }
 }
@@ -177,6 +181,7 @@ else {
         imgList[i-1].style.opacity = "0";
         projectImgIndex[i-1].style.opacity = "0";
         console.log("project desc Open " + i);
+        scrollContainer.style.overflowY = "hidden";
         descIconState = 1;
     }
     else {
@@ -186,6 +191,7 @@ else {
         imgList[i-1].style.opacity = "1";
         projectImgIndex[i-1].style.opacity = "1";
         console.log("project desc Close " + i);
+        scrollContainer.style.overflowY = "auto";
         descIconState = 0;
     }
     }
@@ -230,6 +236,7 @@ document.addEventListener('scroll', function (ev) {
                 menuArea.style.opacity = "1";
                 menuList.style.pointerEvents = "auto";
                 rowMenuDisable.style.opacity = "0"
+                scrollContainer.style.overflowY = "hidden";
                 menuIconState = 1;
                 console.log("mobile");
                
@@ -240,6 +247,7 @@ document.addEventListener('scroll', function (ev) {
                 menuArea.style.backgroundColor = "rgba(255, 255, 0, 0.8)"
                 menuList.style.pointerEvents = "none";
                 rowMenuDisable.style.opacity = "1"
+                scrollContainer.style.overflowY = "auto";
                 menuIconState = 0;
             }
         }
