@@ -357,7 +357,7 @@ left : calc(var(--main-margin) + (var(--cross-height) / 2));
 
 #logo {
   padding-top: 3vw;
-  font-size: 80px;
+  font-size: 40px;
 }
 
 #info-authors {
